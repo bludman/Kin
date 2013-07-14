@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <!-- CONFIG LOADING -->
+    <script type="text/javascript" src="config/local.js"></script>
+    <!-- END OF CONFIG LOADING -->
+
+    <!-- TEMPLATE LOADING -->
+    <script type="text/javascript" src="thirdparty/soy/soyutils.js"></script>
+    <script type="text/javascript" src="templates/templates.js"></script>
+    <!-- END OF TEMPLATE LOADING -->
+
+    <script type="text/javascript" src="thirdparty/jquery.js"></script>
+    <script type="text/javascript" src="thirdparty/underscore.js"></script>
+    <script type="text/javascript" src="thirdparty/backbone-min.js"></script>
+    <script type="text/javascript" src="thirdparty/raphael-min.js"></script>
+
+    <script type="text/javascript" src="js/Bar.js"></script>
+    <script type="text/javascript" src="js/Servo.js"></script>
+    <script type="text/javascript" src="js/HorizontalSlider.js"></script>
+    <script type="text/javascript" src="js/Arm.js"></script>
+    <script type="text/javascript" src="js/KinApp.js"></script>
+
+    <link href="style/style.css" type="text/css" rel="stylesheet" />
+    <title>Kin</title>
+  </head>
+
+  <body>
+    <div id="canvas"></div>
+    <script type="text/javascript">
+      var app = new Kin.KinApp();
+    </script>
+  </body>
+</html>
