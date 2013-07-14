@@ -6,3 +6,7 @@ Kin is a super simple mini-webapp for playing with a basic kinematic chain that 
 
 Three sliders control the angles of the three revolute joints.
 The position of the shoulder joint can be moved within the canvas by dragging it to a different position.
+
+[See Demo Here]
+
+  [See Demo Here]: http://bludman.github.io/Kin
